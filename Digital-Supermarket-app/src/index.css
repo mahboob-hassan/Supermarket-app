@@ -1,0 +1,25 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background gradient */
+body {
+  background: linear-gradient(
+    135deg,
+    #ffb87a 0%,
+    #f4a4d3 25%,
+    #b993f7 50%,
+    #7953f5 75%,
+    #00cfff 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
